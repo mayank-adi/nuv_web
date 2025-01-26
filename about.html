@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navrachna University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        .sub-header{
+            height: 50vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(about.jpeg);
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            color: white;
+        }
+        .sub-header h1{
+            margin-top: 100px;
+        }
+
+        .row{
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .about-us{
+            width: 80%;
+            margin: auto;
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+        .about-col{
+            flex-basis: 48%;
+            padding: 30px 2px;
+        }
+        .about-col img{
+            width: 100%;
+        }
+        .about-col h1{
+            padding-top: 0;
+        }
+        .about-col p{
+            padding: 15px 0 25px;
+        }
+        .hero-btn{
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            padding: 12px 34px;
+            font-size: 14px;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+        }
+        .hero-btn:hover{
+            border: 1px solid #f44336;
+            background: #f44336;
+            transition: 1s;
+        }
+        .red-btn{
+            border: 1px solid#f4d136;
+            background: transparent;
+            color: #f4b136;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Nuv Logo.png" alt=""></a>
+            <div class="nav_links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <h1>About US</h1>
+    </section>
+
+    <!-- about us content -->
+     <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the Gujarat's largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, non id alias illo exercitationem accusamus eveniet nesciunt nulla qui. Est adipisci sapiente et expedita corporis?</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW!</a>
+            </div>
+            <div class="about-col">
+                <img src="about-img.jpeg" alt="">
+            </div>
+        </div>
+     </section>
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Established in 2009, we are a young University that understands the aspirations of the youth, and being part
+            of the Navrachana Education Society (NES), we are backed <br>by 55+ years of excellence in education. Our
+            world is constantly changing and with it are changing the demands on professionals.</p>
+    </section>
+
+</body>
+
+</html>
