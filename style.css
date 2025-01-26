@@ -11,7 +11,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(41, 18, 54, 0.63),rgba(39, 9, 78, 0.644)),url(nuv.jpg);
+    background-image: linear-gradient(rgba(41, 18, 54, 0.63),rgba(39, 9, 78, 0.644)),url(Nuv.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
