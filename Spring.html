@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses in Navrachna University</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Inter", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+
+        .header {
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(48, 48, 48, 0.336), rgba(247, 247, 247, 0.322)), url(course.jpg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+
+        nav {
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        nav img {
+            width: 400px;
+        }
+
+        .nav_links {
+            flex: 1;
+            text-align: right;
+
+        }
+
+        .nav_links ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+            color: #ffffff;
+        }
+
+        .nav_links ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .nav_links ul li::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: f44336;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+
+        .nav_links ul li:hover::after {
+            width: 100%;
+            background-color: blue;
+        }
+
+        .table-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        table,
+        tr,
+        td,
+        th {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, 0.027);
+            height: 50px;
+            width: 100%;
+            border-collapse: collapse;
+
+
+
+        }
+
+
+        .table-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+
+        }
+
+        .table table {
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+
+        .anchor {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .anchor:hover {
+            color: #ff0000;
+        }
+        .footer {
+            width: 100%;
+            text-align: center;
+            padding: 30px 0;
+        }
+        .footer h4{
+            margin-bottom: 25px;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Nuv Logo.png" alt=""></a>
+            <div class="nav_links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="table-container">
+            <h2 class="table-title">2ND SEMESTER</h2>
+
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>TIME</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 11:00 AM</td>
+                        <td>CS158</td>
+                        <td>ENG208</td>
+                        <td></td>
+                        <td>CS154</td>
+                        <td>CS154</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:00 AM</td>
+                        <td>CS158</td>
+                        <td>ENG208</td>
+                        <td></td>
+                        <td>CS193</td>
+                        <td>ENG209</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 01:00 PM</td>
+                        <td>CS193</td>
+                        <td>CS154</td>
+                        <td></td>
+                        <td>ENG207</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>01:00 - 02:00 PM</td>
+                        <td>Break</td>
+                        <td>Break</td>
+                        <td>Break</td>
+                        <td>Break</td>
+                        <td>Break</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>02:00 - 03:00 PM</td>
+                        <td>ENG209</td>
+                        <td>PH121</td>
+                        <td></td>
+                        <td>CS194</td>
+                        <td>CS154</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>03:00 - 04:00 PM</td>
+                        <td>ENG209</td>
+                        <td>CS194</td>
+                        <td></td>
+                        <td>CS194</td>
+                        <td>CS157</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>04:00 - 05:00 PM</td>
+                        <td></td>
+                        <td>CS157</td>
+                        <td></td>
+                        <td></td>
+                        <td>ENG207</td>
+                        <td></td>
+                    </tr>
+                </table>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Established in 2009, we are a young University that understands the aspirations of the youth, and being part
+            of the Navrachana Education Society (NES), we are backed <br>by 55+ years of excellence in education. Our
+            world is constantly changing and with it are changing the demands on professionals.</p>
+    </section>
+
+</body>
+
+</html>

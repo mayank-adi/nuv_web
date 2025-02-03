@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navrachna University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .table {
+            border: 1px;
+
+        }
+
+        .table-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        table,
+        tr,
+        td,
+        th {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, 0.027);
+        }
+
+
+        .table-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+
+        }
+
+        .table table {
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+
+        .anchor {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .anchor:hover {
+            color: #ff0000;
+        }
+        .footer {
+            width: 100%;
+            text-align: center;
+            padding: 30px 0;
+        }
+        .footer h4{
+            margin-bottom: 25px;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+    </style>
+
 </head>
+
 <body>
-    
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Nuv Logo.png" alt=""></a>
+            <div class="nav_links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="table-container">
+            <h2 class="table-title">COMPUTER SCIENCE AND ENGINEERING TIME TABLE :</h2>
+
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>COURSE</th>
+                        <th>SEASON</th>
+                    </tr>
+                    <tr>
+                        <td><a class="anchor" href="Autumn.html">Autumn Season</a></td>
+                        <td><a class="anchor" href="Spring.html">Spring Season</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Established in 2009, we are a young University that understands the aspirations of the youth, and being part
+            of the Navrachana Education Society (NES), we are backed <br>by 55+ years of excellence in education. Our
+            world is constantly changing and with it are changing the demands on professionals.</p>
+    </section>
 </body>
-</html>
