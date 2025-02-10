@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navrachna University</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&display=swap" rel="stylesheet">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    
+    .header{
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(41, 18, 54, 0.185),rgba(39, 9, 78, 0.644)),url(connect_us.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    nav img{
+        width: 400px;
+    }
+    
+    .nav_links{
+        flex: 1;
+        text-align: right;
+    
+    }
+    .nav_links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+        color: #ffffff;
+    }
+    .nav_links ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .nav_links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: f44336;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .nav_links ul li:hover::after {
+        width: 100%;
+        background-color: blue;
+    }
+
+    /* forms */
+    .contact-container{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .contact-left{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+    .contact-left-title h2{
+        font-weight: 600;
+        color: rgb(255, 0, 0);
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    .contact-left-title hr{
+        border: none;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+    }
+    .contact-inputs{
+        width: 400px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25px;
+        font-weight: 500;
+        color: rgb(255, 0, 0);
+        border-radius: 50px;
+    }
+    .contact-left textarea{
+        height: 140px;
+        padding-top: 15px;
+        border-radius: 20px;
+    }
+    .contact-inputs:focus{
+        border: 2px solid rgb(255, 0, 0);
+    }
+    .contact-inputs::placeholder{
+        color: #928d8df3;
+    }
+    .contact-left button{
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        font-size: 16px;
+        color: #ffffff;
+        gap: 10px;
+        border: none;
+        border-radius: 50px;
+        background: linear-gradient(270deg,rgba(255, 0, 0, 0.911),rgba(255, 0, 0, 0.925));
+        cursor: pointer;
+    }
+
+
+    .footer {
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .footer h4{
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+</style>
+    
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Nuv Logo.png" alt=""></a>
+            <div class="nav_links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+        <!-- FORMS -->
+         <div class="contact-container">
+            <form action="" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get In Touch</h2>
+                    <hr>
+                </div>
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="number" name="phone" placeholder="Enter your number" class="contact-inputs" required>
+                <input type="email" name="name" placeholder="Your Mail" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-input" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-right">
+
+            </div>
+         </div>
+    </section>
+    
+    <section>
+
+    </section>
+    <!-- FOOTER -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Established in 2009, we are a young University that understands the aspirations of the youth, and being part of the Navrachana Education Society (NES), we are backed <br>by 55+ years of excellence in education. Our world is constantly changing and with it are changing the demands on professionals.</p>
+       </section>
+</body>
